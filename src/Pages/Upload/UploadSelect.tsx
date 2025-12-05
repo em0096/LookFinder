@@ -27,10 +27,10 @@ export default function UploadSelect(){
                 {/* create a hidden file input that is triggered when the button is clicked */}
                 <input onChange={handleFileChange} type="file" ref={fileInputRef} className="hidden"></input>
 
-                <button onClick={handleSelectPhoto} className="bg-pink-500 rounded-lg"> Select Photo </button>
+                <button onClick={handleSelectPhoto} className="rounded-lg"> Select Photo </button>
             </div>
 
-            <Link className="" to = "details"> Upload </Link>
+            <Link className="border border-[#b08968] rounded-xl px-4 py-2 inline-block" to = "details"> Upload </Link>
              
         </div>
     );

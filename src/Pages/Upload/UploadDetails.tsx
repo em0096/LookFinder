@@ -6,6 +6,6 @@ return <div className="flex flex-col justify-center items-center gap-6 p-8 h-ful
     <input type="text" placeholder="Post Title" className="w-11/12 max-w-md" />
     <img src="" alt="Uploaded Look" className="w-11/12 max-w-md h-64 bg-gray-200" />
     <input type="text" placeholder="Product Name" className="w-11/12 max-w-md" />
-    <Link className="rounded-lg p-2 text-white font-bold"to = "/" > Share </Link>
+    <Link className="border border-[#b08968] rounded-xl px-4 py-2 inline-block"to = "/" > Share </Link>
 </div>
 }
